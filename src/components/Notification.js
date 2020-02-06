@@ -1,8 +1,6 @@
 import {Button, Col, Layout, Row} from "antd";
 import React, {Component} from "react";
 
-
-
 class Notification extends Component  {
 
     state = {

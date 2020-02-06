@@ -9,7 +9,9 @@ export default function Banner () {
                 <Row>
                     <div className={"banner-overlay"} />
                     <Row >
-                        <Col span={8} offset={8} className={"banner-text"}>
+                        <Col span={8} offset={8} className={"banner-text"}
+                             sm = {{ span:24 , offset: 0}} xs ={{ span:24 , offset:0}}
+                        >
                             <h2>
                                 Hello! I'm Htun Htun Htet<br/>
                                 <strong>  Consult, Design, and Develop Websites </strong>

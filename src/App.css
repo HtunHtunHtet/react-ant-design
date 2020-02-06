@@ -63,7 +63,7 @@
 }
 
 .banner {
-  max-width: 218vw;
+  max-width: 100%;
 }
 
 .banner-text {
@@ -122,10 +122,6 @@
 
   .banner-text div {
     font-size:0.9em;
-  }
-
-  .banner-text {
-    top:22vw;
   }
 
   .call-to-action {
