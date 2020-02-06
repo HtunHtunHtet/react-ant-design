@@ -94,6 +94,16 @@
   background-color:white !important;
 }
 
+.normal-height {
+  max-height: 500px;
+/*  transition: max-height 0.25s ease-in;*/
+}
+
+.reduce-height {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
 /** Media Query Start **/
 @media screen and (max-width: 768px){
   .banner-text h2 {

@@ -2,7 +2,10 @@ import React,{Component} from 'react';
 import '../App.css';
 import MenuHeader from './MenuHeader';
 import Banner from './Banner';
-import {  Layout, Row , Col  } from 'antd';
+import Notification from "./Notification";
+
+import {  Layout  } from 'antd';
+
 
 /**Constants **/
 const {  Content, Footer } = Layout;
@@ -11,13 +14,9 @@ class App extends Component {
     render () {
         return(
             <div>
-                <Layout>
-                    <Row>
-                        <Col span={24}>
-                            Hello
-                        </Col>
-                    </Row>
-                </Layout>
+
+                <Notification/>
+
 
                 <Layout className="layout">
 
