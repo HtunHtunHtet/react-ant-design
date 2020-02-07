@@ -3,12 +3,12 @@ import '../App.css';
 import MenuHeader from './MenuHeader';
 import Banner from './Banner';
 import Notification from "./Notification";
-
 import {  Layout  } from 'antd';
+import HighLight from "./HighLight";
 
 
 /**Constants **/
-const {  Content, Footer } = Layout;
+const { Footer } = Layout;
 
 class App extends Component {
     render () {
@@ -17,8 +17,7 @@ class App extends Component {
 
                 <Notification/>
 
-
-                <Layout className="layout">
+                <Layout className="layout smoke-grey">
 
                     {/*Header*/}
                     <MenuHeader/>
@@ -26,10 +25,9 @@ class App extends Component {
                     {/*Banners*/}
                     <Banner/>
 
-                    {/*Content*/}
-                    <Content style={{ padding: '0 50px' }}>
-                        <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div>
-                    </Content>
+                    {/*HighLight*/}
+                    <HighLight/>
+
 
                     {/*Footer*/}
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>

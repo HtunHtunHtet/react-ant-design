@@ -1,4 +1,5 @@
 @import "~antd/dist/antd.css";
+@import "~font-awesome/css/font-awesome.css";
 
 .App {
   text-align: center;
@@ -75,7 +76,7 @@
 
 .banner-text h2 {
   color :white;
-  font-size: 1.8em;
+  font-size: 1.9em;
   font-weight: 300;
 }
 
@@ -96,7 +97,6 @@
 
 .normal-height {
   max-height: 500px;
-/*  transition: max-height 0.25s ease-in;*/
 }
 
 .reduce-height {
@@ -104,7 +104,36 @@
   transition: max-height 0.5s ease-out;
 }
 
+.smoke-grey {
+  background-color:#e5e5e5;
+}
+
+.thin-border {
+  border: 1px solid #8080804f;
+}
+
+.ant-card-body {
+  min-height: 172px;
+}
+
+.ant-layout-content{
+  font-size:12px;
+}
+
+.fa {
+  color: gray;
+}
+
+
 /** Media Query Start **/
+@media screen and (max-width: 1006px) {
+
+  .ant-card-body {
+    min-height: 180px;
+  }
+
+}
+
 @media screen and (max-width: 768px){
   .banner-text h2 {
     font-size:1.3em;
