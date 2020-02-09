@@ -5,6 +5,7 @@ import Banner from './Banner';
 import Notification from "./Notification";
 import {  Layout  } from 'antd';
 import HighLight from "./HighLight";
+import NewsLetter from "./NewsLetter";
 
 
 /**Constants **/
@@ -28,9 +29,12 @@ class App extends Component {
                     {/*HighLight*/}
                     <HighLight/>
 
+                    <NewsLetter/>
 
                     {/*Footer*/}
-                    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+                    <Footer style={{ textAlign: 'center' ,backgroundColor: '#004a75' , color:'white' }}>
+                        &#169; Htun Htun Htet, All rights reserved
+                    </Footer>
                 </Layout>
             </div>
         )
