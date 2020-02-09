@@ -66,8 +66,8 @@ class NewsLetter extends Component  {
         e.preventDefault();
 
         let currentTime = new moment();
-        //let nextTenMin  = new moment().add(10,'minutes');
-        let nextTenMin  = new moment().add(5,'seconds');
+        let nextTenMin  = new moment().add(10,'minutes');
+        //let nextTenMin  = new moment().add(5,'seconds');
 
         $(".newsletter-holder").removeClass('slideUpBottom');
         $(".newsletter-holder").addClass('slideOutDown')
@@ -91,7 +91,7 @@ class NewsLetter extends Component  {
 
         return (
            <div className={holderClass}>
-               <a href={'#'} style={{color:"white", float: 'right'}} onClick={this.handleClick}>x</a>
+               <a href={'# '} style={{color:"white", float: 'right'}} onClick={this.handleClick}>x</a>
                <Title level={4} style={{color:'white'}}>Get latest updates in web technologies</Title>
                <Content>
                    I write articles related to web technologies, such as design trends, development

@@ -33,7 +33,7 @@ class App extends Component {
 
                     {/*Footer*/}
                     <Footer style={{ textAlign: 'center' ,backgroundColor: '#004a75' , color:'white' }}>
-                        &#169; Htun Htun Htet, All rights reserved
+                        &#169; 2020 Htun Htun Htet, All rights reserved
                     </Footer>
                 </Layout>
             </div>
